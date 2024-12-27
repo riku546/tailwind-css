@@ -12,8 +12,8 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       gridTemplateColumns: {
-        "pc-size": "1fr 2fr 1fr",
-        "mobile-size": "75px auto",
+        "pc-size": "1fr 1fr 1fr",
+        "mobile-size": "80px auto",
       },
     },
   },
