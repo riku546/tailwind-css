@@ -1,12 +1,13 @@
 import React from "react";
 import AndroidIcon from "@mui/icons-material/Android";
-import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
-import GifBoxIcon from '@mui/icons-material/GifBox';
-import AddReactionIcon from '@mui/icons-material/AddReaction';
-import HowToVoteIcon from '@mui/icons-material/HowToVote';
-import EditCalendarIcon from '@mui/icons-material/EditCalendar';
-import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
-import FingerprintIcon from '@mui/icons-material/Fingerprint';
+import InsertPhotoIcon from "@mui/icons-material/InsertPhoto";
+import GifBoxIcon from "@mui/icons-material/GifBox";
+import AddReactionIcon from "@mui/icons-material/AddReaction";
+import HowToVoteIcon from "@mui/icons-material/HowToVote";
+import EditCalendarIcon from "@mui/icons-material/EditCalendar";
+import AddLocationAltIcon from "@mui/icons-material/AddLocationAlt";
+import FingerprintIcon from "@mui/icons-material/Fingerprint";
+import Post from "./Post";
 const TimeLineContent = () => {
   return (
     <div>
@@ -31,14 +32,20 @@ const TimeLineContent = () => {
             <FingerprintIcon fontSize="small" color="primary"></FingerprintIcon>
             <HowToVoteIcon fontSize="small" color="primary"></HowToVoteIcon>
             <AddReactionIcon fontSize="small" color="primary"></AddReactionIcon>
-            <EditCalendarIcon fontSize="small" color="primary"></EditCalendarIcon>
-            <AddLocationAltIcon fontSize="small" color="primary"></AddLocationAltIcon>
+            <EditCalendarIcon
+              fontSize="small"
+              color="primary"
+            ></EditCalendarIcon>
+            <AddLocationAltIcon
+              fontSize="small"
+              color="primary"
+            ></AddLocationAltIcon>
           </div>
           <button class="bg-slate-700  px-4 py-2 rounded-full">
             ポストする
           </button>
         </div>
-
+        <Post></Post>
       </div>
     </div>
   );
