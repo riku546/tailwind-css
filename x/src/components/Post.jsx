@@ -10,23 +10,23 @@ import DriveFolderUploadIcon from "@mui/icons-material/DriveFolderUpload";
 
 const Post = ({ date, postText }) => {
   return (
-    <div>
-      <div class="flex space-x-3 justify-between items-center h-full">
-        <div class="flex ">
+    <div class="px-6 py-3 border-b border-zinc-800">
+      <div class="flex space-x-3  justify-between items-center h-full">
+        <div class="flex space-x-3">
           <Face fontSize="large"></Face>
           <div class="flex space-x-3 flex-col">
             <div class="flex space-x-2">
               <p>ユーザー名</p>
-              <p>{"2020年"}</p>
+              <p>{date}</p>
             </div>
-            <div>{"ffffffffffffffffffffffff"}</div>
+            <p class="break-all">{postText}</p>
           </div>
         </div>
         <div class="h-full flex justify-start">
           <MoreHorizIcon></MoreHorizIcon>
         </div>
       </div>
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between items-center mt-4">
         <ul class="flex justify-around space-x-3">
           <li class="flex space-x-2">
             <p>10</p> <QuickreplyIcon></QuickreplyIcon>

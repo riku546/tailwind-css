@@ -13,6 +13,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         "pc-size": "1fr 1fr 1fr",
+        "tablet-size": "80px 3fr 1fr",
         "mobile-size": "80px auto",
       },
     },

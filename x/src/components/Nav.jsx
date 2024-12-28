@@ -53,21 +53,21 @@ const Nav = () => {
               key={item.text}
             >
               <div class="p-1">{item.icon}</div>
-              <p class="text-xl hidden lg:block">{item.text}</p>
+              <p class="text-xl hidden xl:block">{item.text}</p>
             </li>
           ))}
         </div>
         <li class="flex bg-slate-800 rounded-full p-2 mt-3 hover:opacity-50 hover:cursor-pointer">
-          <div class="block lg:hidden">
+          <div class="block xl:hidden">
             <EditIcon fontSize="large"></EditIcon>
           </div>
-          <p class="text-xl hidden lg:block lg:text-center lg:w-full">
+          <p class="text-xl hidden xl:block xl:text-center xl:w-full">
             ポストする
           </p>
         </li>
         <li class="flex space-x-4 mt-10 p-1 hover:opacity-50 hover:cursor-pointer">
           <AndroidIcon fontSize="large"></AndroidIcon>
-          <div class="hidden  space-x-4 lg:flex">
+          <div class="hidden  space-x-4 xl:flex">
             <p class="text-xl">riku</p>
             <MoreHorizIcon></MoreHorizIcon>
           </div>
