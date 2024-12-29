@@ -3,7 +3,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import { Face } from "@mui/icons-material";
 
-const LeftSideBar = () => {
+const RightSideBar = () => {
   const trendItems = [
     {
       trendCategory: "スポーツ・トレンド",
@@ -97,4 +97,4 @@ const LeftSideBar = () => {
   );
 };
 
-export default LeftSideBar;
+export default RightSideBar;

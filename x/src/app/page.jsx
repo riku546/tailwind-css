@@ -1,4 +1,4 @@
-import LeftSideBar from "@/components/LeftSideBar";
+import RightSideBar from "@/components/RightSideBar";
 import Nav from "@/components/Nav";
 import TimeLineContent from "@/components/TimeLineContent";
 
@@ -12,7 +12,7 @@ export default function Home() {
         <TimeLineContent />
       </div>
       <div class="hidden xl:block">
-        <LeftSideBar />
+        <RightSideBar />
       </div>
     </div>
   );
