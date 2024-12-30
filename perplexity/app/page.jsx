@@ -5,6 +5,7 @@ export default function page() {
   return (
     <div class="grid grid-cols-pc">
       <SideNav></SideNav>
+      
       <MainArea></MainArea>
     </div>
   );

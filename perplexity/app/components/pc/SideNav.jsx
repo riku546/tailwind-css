@@ -8,7 +8,7 @@ import WorkspacesIcon from "@mui/icons-material/Workspaces";
 import HistoryIcon from "@mui/icons-material/History";
 const SideNav = () => {
   return (
-    <div class="px-4 py-6 flex flex-col justify-between h-screen bg-sideNav">
+    <div class="px-4 py-6 flex flex-col justify-between h-screen bg-custom1">
       <div class="flex  flex-col space-y-5">
         <div class="w-40 sm:w-44 flex items-center space-x-3">
           <Image src={perplexityLogo} />

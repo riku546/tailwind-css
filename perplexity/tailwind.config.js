@@ -10,12 +10,18 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        sideNav:"#202222"
+        custom1: "#202222",
+        custom2: "#191a1a",
+      },
+      maxWidth: {
+        "640px": "640px",
       },
       gridTemplateColumns: {
         pc: "240px auto",
       },
-
+      gridTemplateRows: {
+        pc: "auto  40px",
+      },
     },
   },
   plugins: [],
