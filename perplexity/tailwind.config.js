@@ -20,7 +20,7 @@ module.exports = {
         pc: "240px auto",
       },
       gridTemplateRows: {
-        pc: "auto  40px",
+        pc: "auto  60px",
       },
     },
   },

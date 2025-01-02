@@ -14,11 +14,11 @@ const MainArea = () => {
     "日本で人気の温泉スポット",
   ];
   return (
-    <div class="h-screen lg:p-2 ">
-      <div class="h-full grid grid-rows-pc bg-custom2 lg:rounded-xl ">
-        <div class="flex flex-col  items-center justify-center">
-          <div class="space-y-4 w-10/12 max-w-640px">
-            <p class="text-3xl text-center">何を知りたいですか？</p>
+    <div class="md:h-screen lg:p-2 ">
+      <div class="h-full md:grid md:grid-rows-pc bg-custom2 md:lg:rounded-xl">
+        <div class="md:flex flex-col  items-center justify-center">
+          <div class="space-y-4 w-full md:max-w-640px">
+            <p class="text-3xl md:text-center">何を知りたいですか？</p>
             <div class="bg-custom1 px-5 pt-5 pb-2 rounded-lg border border-zinc-700">
               <textarea
                 type="text"
@@ -43,9 +43,9 @@ const MainArea = () => {
               </div>
             </div>
           </div>
-          <div  class="w-10/12 max-w-640px grid grid-cols-2 gap-2 mt-4">
+          <div class="flex flex-col w-full md:max-w-640px md:grid grid-cols-2 gap-2 mt-4">
             {recommendedItems.map((item) => (
-              <div class="flex items-center space-x-1 border border-zinc-800 rounded-xl py-2 px-1">
+              <div class="w-full flex items-center space-x-1 border border-zinc-800 rounded-xl py-2 px-1" key={item}>
                 <div class="bg-custom1 p-1 rounded-lg">
                   <PlagiarismIcon></PlagiarismIcon>
                 </div>
@@ -54,7 +54,7 @@ const MainArea = () => {
             ))}
           </div>
         </div>
-        <div class="flex  items-center justify-center space-x-2 md:space-x-4 text-sm">
+        <div class="hidden md:flex  md:items-center justify-center space-x-2 md:space-x-4 text-sm">
           <p>&pro;</p>
           <p>エンタープライズ</p>
           <p>店舗</p>
@@ -66,7 +66,9 @@ const MainArea = () => {
           </div>
         </div>
       </div>
-      <button class="absolute right-3 md:right-6 bottom-4 text-xl text-blue-500 bg-white px-3 py-1 rounded-full ">?</button>
+      <button class="hidden md:block absolute  right-6 bottom-4 text-xl text-blue-500 bg-white px-3 py-1 rounded-full ">
+        ?
+      </button>
     </div>
   );
 };

@@ -7,28 +7,26 @@ import PersonIcon from "@mui/icons-material/Person";
 
 const BottomNav = () => {
   return (
-    <div>
-      <div class="w-full bg-custom1  flex justify-around items-center p-2">
-        <div class="flex flex-col items-center">
-          <SavedSearchIcon></SavedSearchIcon>
-          <p class="text-sm">ホーム</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <BlurCircularIcon></BlurCircularIcon>
-          <p class="text-sm">発見</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <WorkspacesIcon></WorkspacesIcon>
-          <p class="text-sm">スペース</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <HistoryIcon></HistoryIcon>
-          <p class="text-sm">ライブラリー</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <PersonIcon></PersonIcon>
-          <p class="text-sm">サインイン</p>
-        </div>
+    <div class="w-full bg-custom1  flex justify-around items-center">
+      <div class="flex flex-col items-center">
+        <SavedSearchIcon></SavedSearchIcon>
+        <p class="text-sm">ホーム</p>
+      </div>
+      <div class="flex flex-col items-center">
+        <BlurCircularIcon></BlurCircularIcon>
+        <p class="text-sm">発見</p>
+      </div>
+      <div class="flex flex-col items-center">
+        <WorkspacesIcon></WorkspacesIcon>
+        <p class="text-sm">スペース</p>
+      </div>
+      <div class="flex flex-col items-center">
+        <HistoryIcon></HistoryIcon>
+        <p class="text-sm">ライブラリー</p>
+      </div>
+      <div class="flex flex-col items-center">
+        <PersonIcon></PersonIcon>
+        <p class="text-sm">サインイン</p>
       </div>
     </div>
   );

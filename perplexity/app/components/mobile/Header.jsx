@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div class="py-3 border-b border-zinc-700">
+    <div class="w-40 sm:w-44 flex items-center space-x-3 ">
       <Image src={perplexityLogo}></Image>
     </div>
   );
