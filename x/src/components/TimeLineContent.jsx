@@ -36,7 +36,9 @@ const TimeLineContent = () => {
     <div>
       <div class="flex justify-around border-b border-zinc-800 py-3">
         <p class="text-lg font-bold">おすすめ</p>
-        <p class="text-lg font-bold border-b-2 pb-1  border-blue-600">フォロー中</p>
+        <p class="text-lg font-bold border-b-2 pb-1  border-blue-600">
+          フォロー中
+        </p>
       </div>
       <div>
         <div class="px-6 py-3 border-b border-zinc-800">
@@ -50,7 +52,7 @@ const TimeLineContent = () => {
             ></textarea>
           </div>
           <div class="flex justify-between items-center">
-            <div class="flex space-x-2 ">
+            <div class="flex space-x-2">
               <InsertPhotoIcon
                 fontSize="small"
                 color="primary"
@@ -60,19 +62,21 @@ const TimeLineContent = () => {
                 fontSize="small"
                 color="primary"
               ></FingerprintIcon>
-              <HowToVoteIcon fontSize="small" color="primary"></HowToVoteIcon>
-              <AddReactionIcon
-                fontSize="small"
-                color="primary"
-              ></AddReactionIcon>
-              <EditCalendarIcon
-                fontSize="small"
-                color="primary"
-              ></EditCalendarIcon>
-              <AddLocationAltIcon
-                fontSize="small"
-                color="primary"
-              ></AddLocationAltIcon>
+              <div class="hidden sm:flex items-center space-x-2">
+                <HowToVoteIcon fontSize="small" color="primary"></HowToVoteIcon>
+                <AddReactionIcon
+                  fontSize="small"
+                  color="primary"
+                ></AddReactionIcon>
+                <EditCalendarIcon
+                  fontSize="small"
+                  color="primary"
+                ></EditCalendarIcon>
+                <AddLocationAltIcon
+                  fontSize="small"
+                  color="primary"
+                ></AddLocationAltIcon>
+              </div>
             </div>
             <button class="bg-slate-700  px-4 py-2 rounded-full">
               ポストする
